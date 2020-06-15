@@ -13,12 +13,17 @@
     "gen": "npx plop"
   },
   "dependencies": {
+    "@types/react-leaflet": "^2.5.1",
+    "leaflet": "^1.6.0",
+    "leaflet-geosearch": "^3.0.0-rc.4",
+    "office-ui-fabric-react": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "office-ui-fabric-react": "^7.0.0"
+    "react-leaflet": "^2.7.0"
   },
   "devDependencies": {
-    "just-stack-react": "^1.0.0",
-    "just-scripts": "^0.27.0"
+    "@types/leaflet-geosearch": "^2.7.1",
+    "just-scripts": "^0.27.0",
+    "just-stack-react": "^1.0.0"
   }
 }

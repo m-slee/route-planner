@@ -1,0 +1,101 @@
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    width:30%;
+    min-width: 300px;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.add-to-dests {
+    background: #7719aa;
+    color: white;
+}
+
+.add-to-dests:hover {
+    background: #62158b;
+    color: white;
+}
+
+.add-to-dests:disabled {
+    background: #d3c6da;
+    pointer-events: none;
+}
+
+.is-disabled {
+    background: #d3c6da;
+}
+
+.error {
+    border-bottom: 1px solid #a4373a;
+}
+
+.starting-dest-after::after {
+    content: 'Starting Destination';
+    font-size: .8rem;
+    font-family: "Segoe UI";
+    color: #777777;
+    display: block;
+    margin-top: -1rem;
+}
+
+.ms-IconExample:hover {
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+    transform: scale(1.25);
+    position: relative;
+}
+
+.set-start:hover:after {
+    content: 'Set as Start';
+    font-size: .5rem;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -75%;
+    width:100px;
+    font-family: "Segoe UI";
+    
+}
+
+.delete:hover:after {
+    content: 'Delete';
+    font-size: .5rem;
+    position: absolute;
+    bottom: 1.2rem;
+    left: -25%;
+    width:100px;
+    font-family: "Segoe UI";
+    
+}
+
+.dest-container {
+    display: flex;
+    padding: 1rem 0 1rem 0;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.route-text {
+    margin-left: 1rem;
+}
+
+.error-span {
+    display: flex;
+    align-items: center;
+}
+
+.error-btn {
+    margin-left: .5rem;
+}
